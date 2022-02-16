@@ -8,12 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		71C92D1C27BAFA9100156CA3 /* StinsenExampleHuddleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C92D1B27BAFA9100156CA3 /* StinsenExampleHuddleApp.swift */; };
-		71C92D1E27BAFA9100156CA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C92D1D27BAFA9100156CA3 /* ContentView.swift */; };
 		71C92D2027BAFA9200156CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71C92D1F27BAFA9200156CA3 /* Assets.xcassets */; };
 		71C92D2327BAFA9200156CA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71C92D2227BAFA9200156CA3 /* Preview Assets.xcassets */; };
 		71C92D2D27BAFA9300156CA3 /* StinsenExampleHuddleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C92D2C27BAFA9300156CA3 /* StinsenExampleHuddleTests.swift */; };
 		71C92D3727BAFA9300156CA3 /* StinsenExampleHuddleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C92D3627BAFA9300156CA3 /* StinsenExampleHuddleUITests.swift */; };
 		71C92D3927BAFA9300156CA3 /* StinsenExampleHuddleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C92D3827BAFA9300156CA3 /* StinsenExampleHuddleUITestsLaunchTests.swift */; };
+		71C92D4827BAFAC400156CA3 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C92D4727BAFAC400156CA3 /* Pet.swift */; };
+		71C92D5027BAFB1D00156CA3 /* PetListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C92D4F27BAFB1D00156CA3 /* PetListViewModel.swift */; };
+		71C92D5227BAFB9900156CA3 /* PetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C92D5127BAFB9900156CA3 /* PetListView.swift */; };
+		71C92D5427BAFCEF00156CA3 /* PetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C92D5327BAFCEF00156CA3 /* PetDetailView.swift */; };
+		71C92D5627BAFCF800156CA3 /* PetDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C92D5527BAFCF800156CA3 /* PetDetailViewModel.swift */; };
+		71C92D5927BAFD5400156CA3 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 71C92D5827BAFD5400156CA3 /* Kingfisher */; };
+		71C92D5C27BAFFEC00156CA3 /* LoggedOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C92D5B27BAFFEC00156CA3 /* LoggedOutView.swift */; };
+		71C92D5F27BB012200156CA3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C92D5E27BB012200156CA3 /* SettingsView.swift */; };
+		71C92D6127BB021E00156CA3 /* PetSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C92D6027BB021E00156CA3 /* PetSettingsView.swift */; };
+		71C92D6427BB026B00156CA3 /* Stinsen in Frameworks */ = {isa = PBXBuildFile; productRef = 71C92D6327BB026B00156CA3 /* Stinsen */; };
+		71C92D6827BB029500156CA3 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C92D6727BB029500156CA3 /* MainCoordinator.swift */; };
+		71C92D6A27BB02A500156CA3 /* PetsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C92D6927BB02A500156CA3 /* PetsCoordinator.swift */; };
+		71C92D6C27BB02AC00156CA3 /* SettingsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C92D6B27BB02AC00156CA3 /* SettingsCoordinator.swift */; };
+		71C92D6E27BB038200156CA3 /* TabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C92D6D27BB038200156CA3 /* TabCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +49,6 @@
 /* Begin PBXFileReference section */
 		71C92D1827BAFA9100156CA3 /* StinsenExampleHuddle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StinsenExampleHuddle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71C92D1B27BAFA9100156CA3 /* StinsenExampleHuddleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StinsenExampleHuddleApp.swift; sourceTree = "<group>"; };
-		71C92D1D27BAFA9100156CA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		71C92D1F27BAFA9200156CA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71C92D2227BAFA9200156CA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		71C92D2827BAFA9300156CA3 /* StinsenExampleHuddleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StinsenExampleHuddleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +56,18 @@
 		71C92D3227BAFA9300156CA3 /* StinsenExampleHuddleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StinsenExampleHuddleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71C92D3627BAFA9300156CA3 /* StinsenExampleHuddleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StinsenExampleHuddleUITests.swift; sourceTree = "<group>"; };
 		71C92D3827BAFA9300156CA3 /* StinsenExampleHuddleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StinsenExampleHuddleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		71C92D4727BAFAC400156CA3 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		71C92D4F27BAFB1D00156CA3 /* PetListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListViewModel.swift; sourceTree = "<group>"; };
+		71C92D5127BAFB9900156CA3 /* PetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListView.swift; sourceTree = "<group>"; };
+		71C92D5327BAFCEF00156CA3 /* PetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailView.swift; sourceTree = "<group>"; };
+		71C92D5527BAFCF800156CA3 /* PetDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailViewModel.swift; sourceTree = "<group>"; };
+		71C92D5B27BAFFEC00156CA3 /* LoggedOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutView.swift; sourceTree = "<group>"; };
+		71C92D5E27BB012200156CA3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		71C92D6027BB021E00156CA3 /* PetSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetSettingsView.swift; sourceTree = "<group>"; };
+		71C92D6727BB029500156CA3 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		71C92D6927BB02A500156CA3 /* PetsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsCoordinator.swift; sourceTree = "<group>"; };
+		71C92D6B27BB02AC00156CA3 /* SettingsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCoordinator.swift; sourceTree = "<group>"; };
+		71C92D6D27BB038200156CA3 /* TabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71C92D5927BAFD5400156CA3 /* Kingfisher in Frameworks */,
+				71C92D6427BB026B00156CA3 /* Stinsen in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +120,9 @@
 		71C92D1A27BAFA9100156CA3 /* StinsenExampleHuddle */ = {
 			isa = PBXGroup;
 			children = (
+				71C92D6627BB028800156CA3 /* Navigation */,
+				71C92D6527BB027900156CA3 /* Modules */,
 				71C92D1B27BAFA9100156CA3 /* StinsenExampleHuddleApp.swift */,
-				71C92D1D27BAFA9100156CA3 /* ContentView.swift */,
 				71C92D1F27BAFA9200156CA3 /* Assets.xcassets */,
 				71C92D2127BAFA9200156CA3 /* Preview Content */,
 			);
@@ -127,6 +154,80 @@
 			path = StinsenExampleHuddleUITests;
 			sourceTree = "<group>";
 		};
+		71C92D4927BAFAD800156CA3 /* Pets */ = {
+			isa = PBXGroup;
+			children = (
+				71C92D4C27BAFAFE00156CA3 /* ViewModel */,
+				71C92D4B27BAFAF800156CA3 /* View */,
+				71C92D4A27BAFAF100156CA3 /* Model */,
+			);
+			path = Pets;
+			sourceTree = "<group>";
+		};
+		71C92D4A27BAFAF100156CA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71C92D4727BAFAC400156CA3 /* Pet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		71C92D4B27BAFAF800156CA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				71C92D5127BAFB9900156CA3 /* PetListView.swift */,
+				71C92D5327BAFCEF00156CA3 /* PetDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		71C92D4C27BAFAFE00156CA3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				71C92D4F27BAFB1D00156CA3 /* PetListViewModel.swift */,
+				71C92D5527BAFCF800156CA3 /* PetDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		71C92D5A27BAFFBA00156CA3 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				71C92D5B27BAFFEC00156CA3 /* LoggedOutView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		71C92D5D27BB00A000156CA3 /* Setings */ = {
+			isa = PBXGroup;
+			children = (
+				71C92D5E27BB012200156CA3 /* SettingsView.swift */,
+				71C92D6027BB021E00156CA3 /* PetSettingsView.swift */,
+			);
+			path = Setings;
+			sourceTree = "<group>";
+		};
+		71C92D6527BB027900156CA3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				71C92D5D27BB00A000156CA3 /* Setings */,
+				71C92D5A27BAFFBA00156CA3 /* Authentication */,
+				71C92D4927BAFAD800156CA3 /* Pets */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		71C92D6627BB028800156CA3 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				71C92D6727BB029500156CA3 /* MainCoordinator.swift */,
+				71C92D6927BB02A500156CA3 /* PetsCoordinator.swift */,
+				71C92D6B27BB02AC00156CA3 /* SettingsCoordinator.swift */,
+				71C92D6D27BB038200156CA3 /* TabCoordinator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +244,10 @@
 			dependencies = (
 			);
 			name = StinsenExampleHuddle;
+			packageProductDependencies = (
+				71C92D5827BAFD5400156CA3 /* Kingfisher */,
+				71C92D6327BB026B00156CA3 /* Stinsen */,
+			);
 			productName = StinsenExampleHuddle;
 			productReference = 71C92D1827BAFA9100156CA3 /* StinsenExampleHuddle.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +320,10 @@
 				Base,
 			);
 			mainGroup = 71C92D0F27BAFA9100156CA3;
+			packageReferences = (
+				71C92D5727BAFD5400156CA3 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				71C92D6227BB026B00156CA3 /* XCRemoteSwiftPackageReference "stinsen" */,
+			);
 			productRefGroup = 71C92D1927BAFA9100156CA3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +366,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71C92D1E27BAFA9100156CA3 /* ContentView.swift in Sources */,
+				71C92D6827BB029500156CA3 /* MainCoordinator.swift in Sources */,
+				71C92D4827BAFAC400156CA3 /* Pet.swift in Sources */,
+				71C92D5627BAFCF800156CA3 /* PetDetailViewModel.swift in Sources */,
+				71C92D5C27BAFFEC00156CA3 /* LoggedOutView.swift in Sources */,
+				71C92D5F27BB012200156CA3 /* SettingsView.swift in Sources */,
+				71C92D5427BAFCEF00156CA3 /* PetDetailView.swift in Sources */,
 				71C92D1C27BAFA9100156CA3 /* StinsenExampleHuddleApp.swift in Sources */,
+				71C92D6A27BB02A500156CA3 /* PetsCoordinator.swift in Sources */,
+				71C92D6E27BB038200156CA3 /* TabCoordinator.swift in Sources */,
+				71C92D5227BAFB9900156CA3 /* PetListView.swift in Sources */,
+				71C92D6C27BB02AC00156CA3 /* SettingsCoordinator.swift in Sources */,
+				71C92D5027BAFB1D00156CA3 /* PetListViewModel.swift in Sources */,
+				71C92D6127BB021E00156CA3 /* PetSettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +547,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,7 +577,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -607,6 +727,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		71C92D5727BAFD5400156CA3 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		71C92D6227BB026B00156CA3 /* XCRemoteSwiftPackageReference "stinsen" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rundfunk47/stinsen";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		71C92D5827BAFD5400156CA3 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71C92D5727BAFD5400156CA3 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		71C92D6327BB026B00156CA3 /* Stinsen */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71C92D6227BB026B00156CA3 /* XCRemoteSwiftPackageReference "stinsen" */;
+			productName = Stinsen;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 71C92D1027BAFA9100156CA3 /* Project object */;
 }
